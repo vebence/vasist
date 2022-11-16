@@ -37,7 +37,8 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #eee;
+	background-image: url(vasisi.png);
+	background-color: #fff;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;

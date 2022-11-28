@@ -51,13 +51,13 @@ function initSigma(config) {
 		drawProps=config.sigma.drawingProperties;
 	else
 		drawProps={
-        defaultLabelColor: "#000",
-        defaultLabelSize: 14,
+        defaultLabelColor: "#fff",
+        defaultLabelSize: 10,
         defaultLabelBGColor: "#ddd",
         defaultHoverLabelBGColor: "#002147",
         defaultLabelHoverColor: "#fff",
         labelThreshold: 10,
-        defaultEdgeType: "straight",
+        defaultEdgeType: "curve",
         hoverFontStyle: "bold",
         fontStyle: "bold",
         activeFontStyle: "bold"
@@ -67,10 +67,10 @@ function initSigma(config) {
     	graphProps=config.sigma.graphProperties;
     else
     	graphProps={
-        minNodeSize: 1,
-        maxNodeSize: 238,
+        minNodeSize: 100,
+        maxNodeSize: 7,
         minEdgeSize: 0.2,
-        maxEdgeSize: 1.0
+        maxEdgeSize: 0.5
     	};
 	
 	if (config.sigma && config.sigma.mouseProperties) 
@@ -277,7 +277,7 @@ function configSigmaElements(config) {
     $GP.bg2 = $(sigInst._core.domElements.bg2);
     var a = [],
         b,x=1;
-		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Levelezőpartner kategória ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
     //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
@@ -580,7 +580,7 @@ function nodeActive(a) {
         $GP.info_data.html(e.join("<br/>"))
     }
     $GP.info_data.show();
-    $GP.info_p.html("Connections:");
+    $GP.info_p.html("Kapcsolatok:");
     $GP.info.animate({width:'show'},350);
 	$GP.info_donnees.hide();
 	$GP.info_donnees.show();

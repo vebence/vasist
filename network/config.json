@@ -3,9 +3,9 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "oszk_logo_W.png",
-    "link": "",
-    "text": "Vétek Bence"
+    "file": "oszk.png",
+    "link": "https://oszk.hu/",
+    "text": "OSZK DBK"
   },
   "text": {
     "more": "",
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": "Label"
+    "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {

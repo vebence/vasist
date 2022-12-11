@@ -3,18 +3,24 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "oszk_logo_W.png",
+    "file": "rsz_oszk2.png",
     "link": "https://oszk.hu/",
     "text": "OSZK DBK"
   },
   "text": {
     "more": "",
-    "intro": "",
+    "intro": "Vas István levelezésének interaktív vizualizációja, melynek alapjául az OSZK kézirattára által készített jegyzék szolgált.",
     "title": "Vas István kapcsolati hálója"
   },
   "legend": {
     "edgeLabel": "Kapcsolat",
-    "colorLabel": "Férfi/Nő/Vegyes/Intézmény",
+    "colorLabel": "Levelezőpartner típusa",
+    "colorLabel1": "Férfi",
+    "colorLabel2": "Nő",
+    "colorLabel3": "Vegyes",
+    "colorLabel4": "Intézmény",
+    "colorLabel5": "Vas István",
+    "colorLabel6": "Vas István",
     "nodeLabel": "Levelezőpartner"
   },
   "features": {

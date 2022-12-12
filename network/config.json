@@ -8,8 +8,8 @@
     "text": "OSZK DBK"
   },
   "text": {
-    "more": "",
-    "intro": "Vas István levelezésének interaktív vizualizációja, melynek alapjául az OSZK kézirattára által készített jegyzék szolgált.",
+    "more": "Vas István hagyatékának meghatározó részét az Országos Széchenyi Könyvtár Kézirattára őrzi. A tár munkatársai a hagyaték tételeit jegyzékbe rendezték. E jegyzék Vas levelezését tartalmazó adatait vizualizáltuk ezen az oldalon. A kör alakú kapcsolati hálózat fehér középpontjában találjuk magát a költőt, akihez közelebb és nagyobb csomóponttal helyezkednek el azon levelezőpartnerek, akikkel Vas a legtöbb levelet váltotta, míg egyre kijjebb haladva csökken a levélváltások száma. A különböző színek a partnereket nemük, illetve típúsuk alapján rendezik kategóriákba. A kék a férfiakat, a rózsaszín a nőket, a lila pedig vagy a vegyes, egyszerre több emberrel zajló levelezési irányokat, vagy pedig a meghatározhatatlan - tehát például csak vezetéknévvel szereplő - partnereket jelöli. Ezenkívül a zöld pontok az intézményekre vonatkoznak.",
+    "intro": "Vas István levelezésének interaktív vizualizációja, amely az OSZK Kézirattárában őrzött források alapján készült.",
     "title": "Vas István kapcsolati hálója"
   },
   "legend": {

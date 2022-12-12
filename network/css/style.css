@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #181818;
+	background-color: #F8EEEA;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -480,7 +480,7 @@ display: none;
 }
 
 #zoom .z {
-	background:#181818;
+	background:#F8EEEA;
 	background-color:rgba(173, 216, 230,0.7);
 	width: 40px;
 	height: 40px;

@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #F8EEEA;
+	background-color: #181818;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -466,7 +466,7 @@ display: none;
 #zoom {
 	z-index:999;
 	position: fixed;
-	left: 2%;
+	left: 50%;
 	bottom: 25px;
 	margin:0 auto;
 	padding: 0;
@@ -476,11 +476,11 @@ display: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	text-align:left;
+	text-align:center;
 }
 
 #zoom .z {
-	background:#F8EEEA;
+	background:#181818;
 	background-color:rgba(173, 216, 230,0.7);
 	width: 40px;
 	height: 40px;
